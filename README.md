@@ -4,7 +4,6 @@ A research repository for **numerical stochastic differential equations (SDEs)**
 
 The primary workflow lives in notebooks and modular research code, with a project layout that supports gradually moving validated components into a more “production” style structure.
 
----
 
 ## Overview
 
@@ -16,7 +15,6 @@ This repo is currently a lab studying convergence for SDE solvers. It is designe
 - Investigate practical pitfalls in Monte Carlo estimation (e.g., sampling noise dominating weak error curves).
 - Explore how modeling assumptions (notably the increment/noise model) affect observed convergence behavior.
 
----
 
 ## Goals
 
@@ -31,7 +29,6 @@ This repo is currently a lab studying convergence for SDE solvers. It is designe
 - Promote reusable components from `/research` into `/src` once stabilized.
 - Add tests that validate convergence and numerical properties (not just unit-level correctness).
 
----
 
 ## What’s inside
 
@@ -83,7 +80,6 @@ Current analyses include:
 └── setup_instructions.md
 ```
 
----
 
 ## How to run
 
@@ -96,8 +92,6 @@ This repo uses **Pixi** to create a reproducible Python environment. Full setup 
 3. Launch JupyterLab: ```% pixi run jupyter lab```
 4. Run tests: ```% pixi run test```
 
-
----
 
 ## Roadmap
 
@@ -119,7 +113,6 @@ This repo uses **Pixi** to create a reproducible Python environment. Full setup 
 - [ ] Add CI-friendly test suite for reproducibility and numerical sanity checks
 - [ ] Produce a small set of “reference analyses” notebooks that serve as canonical examples
 
----
 
 ## References
 
@@ -131,7 +124,6 @@ General references for the topics explored here:
 - Higham, D. J. (2001). *An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations.*
 - Øksendal, B. *Stochastic Differential Equations: An Introduction with Applications.*
 
----
 
 ## Credits
 
