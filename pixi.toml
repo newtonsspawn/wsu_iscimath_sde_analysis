@@ -8,6 +8,7 @@ version = "0.1.0"
 [tasks]
 test = "pytest -q"
 lint = "python -m compileall ."
+add = "python src/add_example.py"
 
 [dependencies]
 python = "3.12.*"

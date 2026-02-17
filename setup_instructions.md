@@ -32,10 +32,6 @@ Run Pixi tests:
 pixi run test
 ```
 
-```bash
-pixi run pytest
-```
-
 Launch Jupyter Labs to run notebooks:
 
 ```bash
